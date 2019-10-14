@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Contact from './components/Contact';
+import ContactList from './components/ContactList';
 
 const Susan = {
   image: "https://randomuser.me/api/portraits/women/34.jpg",
@@ -26,6 +27,7 @@ function App() {
       <Contact {...Susan}/>
       <Contact {...Lonnie}/>
       <Contact {...Vivan}/>
+      <ContactList/>
     </div>
   );
 }
